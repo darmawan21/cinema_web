@@ -109,32 +109,270 @@ body {
     color: white;
 }
 
-.geser .col-3 {
+
+.row .col-2 {
     float: left;
+    justify-content: center;
+    width: 180px;
+    border: wheat;
 }
 
-.card {
-    width: px;
-    height: 370px;
+/* end navbar */
+
+/* Now Playing*/
+
+.judul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: white;
 }
 
-.card-title h4 {
-    font-family: 'Roboto',sans-serif;
-    font-size: ;
+.checked {
+    color: orange;
 }
 
-.card-img-top {
-    width: 179px;
-    height: 269px;
+.font-rating {
+    color: orange;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
 }
+
+.poster-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.poster-genre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #AFAFAF;
+    margin-top: -17px;
+}
+
+.poster-duration {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-top: -12px;
+}
+
+.poster-tombol {
+    width: 160px;
+    margin-top: -10px;
+}
+
+.poster-prev, .poster-next {
+    bottom: 300px;
+}
+
+/* End Now Playing*/
+
+
+/* The most Popular */
+
+.vthumbnail {
+    margin-top: -300px;
+}
+
+.popular img {
+    width: 583px;
+    height: 437px;
+    margin-top: 20px;
+}
+
+.popular-all {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.popular-genre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #AFAFAF;
+}
+
+.popular h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    color: white;
+}
+
+.popular-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    width: 447px;
+    height: 73px;
+}
+
+.popular-details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 130px;
+    margin-top: -26px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.popular-details i {
+    margin-left: 6px;
+    color: #D43300;
+}
+
+
+/* End The most popular */
+
+/* Upcoming */
+
+.upcoming {
+    margin-top: 64px;
+}
+
+.upcoming img {
+    margin-top: 30px;
+}
+
+.upcoming-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+    color: white;
+    margin-top: 10px;
+}
+
+.upcoming-genre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #AFAFAF;
+    margin-top: -15px;
+}
+
+.upcoming-details  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.upcoming-details i {
+    margin-left: 10px;
+    color: #D43300;
+}
+
+/* End Upcoming */
+
+
+/* News & Event */
+
+.newevent-img img {
+    width: 583px;
+    height: 437px;
+    margin-top: 20px;
+    border: solid white;
+}
+
+.newevent-layout img {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 228px;
+    height: 171px;
+}
+
+.newevent-caption0 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.newevent-caption1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 240px;
+    height: 52px;
+    color: white;
+    margin-top: 20px;
+}
+
+.newevent-caption2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 240px;
+    height: 52px;
+    color: white;
+    margin-top: -250px !important;
+}
+
+.newevent-caption3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 240px;
+    height: 52px;
+    color: white;
+    margin-top: -60px !important;
+}
+
+.newevent-grid1 {
+    margin-top: -270px;
+}
+
+.newevent-grid2 {
+    margin-top: -80px;
+}
+
+/* End News & Event */
+
+
+/* footer */
+
+.page-footer {
+    background-color: #0C0C0C;
+    margin-top: 100px;
+}
+
+.footer-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+.footer-caption {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: -60px;
+}
+
+.footer-link {
+    margin-top: -40px;
+}
+
+.footer-link .footer-color {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-sosmed {
+    line-height: 10px;
+    color: white;
+}
+
+.footer-copyright a {
+    color: white;
+}
+
+/* End Footer */
 
 /* Utility */
+
 
 .tombol {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     border-radius: 5px;
+    
 }
 
 .btn-danger {
